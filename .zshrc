@@ -1,19 +1,15 @@
-source ~/.zplug/init.zsh
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
-# plugins
+ZSH_THEME="robbyrussell"
 
-## nvm
-export NVM_AUTO_USE=true
-zplug "lukechilds/zsh-nvm"
+plugins=(
+	git
+	asdf
+	nvm
+	gitfast
+)
 
+zstyle ':omz:plugins:nvm' autoload yes
 
-# zlpug - install plugins if not already installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-# source plugins and add commands to $PATH
-zplug load
+source $ZSH/oh-my-zsh.sh
