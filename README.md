@@ -4,10 +4,10 @@
 
 1. brew install stow
 
-```
-stow vim
+```ssh
+$ stow vim
 # or if your dotfiles are not in home directory - personally my case
-stow -t ~/ vim
+$ stow -t ~/ vim
 ```
 
 2. stow -t ~/ vim
