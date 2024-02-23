@@ -2,16 +2,19 @@
 
 ## Setup
 
-1. brew install stow
+1. cd dev/xerosanyam
+2. git clone https://github.com/xerosanyam/dotfiles.git
+3. cd dotfiles
+4. brew install stow
+5. stow -t ~/ vim
+6. stow -t ~/ zshrc
 
-```ssh
-$ stow vim
-# or if your dotfiles are not in home directory - personally my case
-$ stow -t ~/ vim
-```
+## Add new setting
 
-2. stow -t ~/ vim
-3. stow -t ~/ zshrc
+1. create a folder (vscode)
+2. create nested folder structure similar to home folder (Library/Application Support/Code/User)
+3. mv file Library/Application Support/Code/User/settings.json to current folder
+4. stow -t ~/ vscode
 
 ##### Reference:
 
