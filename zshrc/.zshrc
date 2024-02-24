@@ -7,7 +7,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="jonathan"
 # ZSH_THEME="random"
 # ZSH_THEME_RANDOM_CANDIDATES=(jonathan josh)
-plugins=(git nvm timer bun alias-finder)
+plugins=(git nvm timer alias-finder)
 zstyle ':omz:plugins:nvm' autoload yes
 TIMER_THRESHOLD=5
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
@@ -15,3 +15,7 @@ zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 source $ZSH/oh-my-zsh.sh
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
