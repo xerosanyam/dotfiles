@@ -16,6 +16,10 @@
 3. mv file Library/Application Support/Code/User/settings.json to current folder
 4. stow -t ~/ vscode
 
+## Sample files
+- there are files like config.sample. they are used to denote how the file look
+- remove .sample and start using the file. they are .gitignored.
+
 ##### Reference:
 
 1. [stow-dotfiles](https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html)

@@ -1,5 +1,5 @@
 ## to generate new credentials
 
-## credentails
+## credentials
 
 - stored in 1Password
