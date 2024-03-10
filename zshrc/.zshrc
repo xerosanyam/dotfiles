@@ -1,11 +1,6 @@
 # CodeWhisperer pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
 
-alias x="exit"
-alias gr="git merge --no-ff --no-commit"
-alias chrome="open -a 'google chrome'"
-alias r="source ~/.zshrc"
-
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="jonathan"
 # ZSH_THEME="random"
@@ -22,6 +17,12 @@ source $ZSH/oh-my-zsh.sh
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# needs to be after zsh imports; to override any alias defined by it
+alias x="exit"
+alias gr="git merge --no-ff --no-commit"
+alias chrome="open -a 'google chrome'"
+alias r="source ~/.zshrc"
 
 # CodeWhisperer post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh"
