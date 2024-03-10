@@ -1,226 +1,228 @@
 {
-	"AddOnly.templates": [
-	  {
-		"decline": ["skip"],
-		"insertAfterPriority": ["concurrent", "it"],
-		"name": "it"
-	  }
-	],
-	"[css]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[dart]": {
-	  "editor.formatOnSave": true,
-	  "editor.formatOnType": true,
-	  "editor.rulers": [80],
-	  "editor.selectionHighlight": false,
-	  "editor.suggest.snippetsPreventQuickSuggestions": false,
-	  "editor.suggestSelection": "first",
-	  "editor.tabCompletion": "onlySnippets",
-	  "editor.wordBasedSuggestions": "off"
-	},
-	"[html]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-	  "editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[javascriptreact]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-	  "editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[jsonc]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[markdown]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[scss]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[svelte]": {
-	  "editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"[typescript]": {
-	  "editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[typescriptreact]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[vue]": {
-	  "editor.defaultFormatter": "Vue.volar"
-	},
-	"atlascode.bitbucket.enabled": false,
-	"atlascode.jira.enabled": false,
-	"dart.flutterSdkPath": "/Users/sanyamjain/dev/libs/flutter",
-	"debug.console.fontSize": 14,
-	"docs-build.userType": "Public Contributor",
-	"editor.accessibilitySupport": "off",
-	"editor.bracketPairColorization.enabled": true,
-	"editor.codeActionsOnSave": {
-	  "source.fixAll": "explicit"
-	},
-	"editor.fontLigatures": true,
-	"editor.formatOnPaste": false,
-	"editor.formatOnType": false,
-	"editor.guides.bracketPairs": "active",
-	"editor.inlineSuggest.enabled": true,
-	"editor.insertSpaces": false,
-	"editor.largeFileOptimizations": false,
-	"editor.minimap.enabled": false,
-	"editor.suggestSelection": "first",
-	"editor.unicodeHighlight.invisibleCharacters": false,
-	"eslint.migration.2_x": "off",
-	"explorer.confirmDelete": false,
-	"explorer.fileNesting.enabled": true,
-	"explorer.fileNesting.patterns": {
-	  "*.cts": "${capture}.typegen.ts",
-	  "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-	  "*.jsx": "${capture}.js",
-	  "*.mts": "${capture}.typegen.ts",
-	  "*.ts": "${capture}.js, ${capture}.typegen.ts",
-	  "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
-	  "package.json": "package-lock.json, yarn.lock",
-	  "tsconfig.json": "tsconfig.*.json"
-	},
-	"files.associations": {
-	  "*.env.*": "dotenv",
-	  "*.mdx": "markdown"
-	},
-	"files.exclude": {
-	  "**/.git": false,
-	  "**/.hg": false,
-	  "**/.svn": false,
-	  "assets/semantic.min.css": true,
-	  "functions/dist/": true
-	},
-	"git.autofetch": true,
-	"git.confirmEmptyCommits": false,
-	"git.confirmSync": false,
-	"git.enableSmartCommit": true,
-	"github.copilot.enable": {
-	  "*": true,
-	  "plaintext": true,
-	  "markdown": false,
-	  "scminput": false,
-	  "yaml": false
-	},
-	"githubPullRequests.fileListLayout": "tree",
-	"githubPullRequests.pullBranch": "never",
-	"gitlens.toggleLineBlame": false,
-	"hediet.vscode-drawio.resizeImages": null,
-	"java.semanticHighlighting.enabled": true,
-	"javascript.preferences.importModuleSpecifier": "relative",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"jest.debugMode": true,
-	"leetcode.defaultLanguage": "javascript",
-	"leetcode.filePath": {},
-	"leetcode.hint.commandShortcut": false,
-	"leetcode.hint.commentDescription": false,
-	"leetcode.hint.configWebviewMarkdown": false,
-	"leetcode.showLocked": true,
-	"leetcode.workspaceFolder": "/Users/sanyamjain/Documents/Personal/code/leetcode/javascript",
-	"liveshare.presence": false,
-	"material-icon-theme.activeIconPack": "vue_vuex",
-	"npm.keybindingsChangedWarningShown": true,
-	"pgsql.connections": [
-	  {
-		"dbname": "postgres",
-		"emptyPasswordInput": true,
-		"host": "localhost",
-		"password": "",
-		"port": "5432",
-		"profileName": "local",
-		"user": "sanyam"
-	  }
-	],
-	"ponicode.token": "e2d6f89a-5e2b-4a27-874a-85d9c3440460",
-	"ponicode.watchMode": true,
-	"python.languageServer": "Default",
-	"redhat.telemetry.enabled": true,
-	"search.exclude": {
-	  "**/.git": true,
-	  "package-lock.json": true
-	},
-	"security.workspace.trust.untrustedFiles": "open",
-	"svelte.enable-ts-plugin": true,
-	"svelte.plugin.svelte.note-new-transformation": false,
-	"sync.gist": "abd80bbc96478fb57a5de036cdd9a494",
-	"tabnine.experimentalAutoImports": true,
-	"terminal.integrated.env.osx": {
-	  "FIG_NEW_SESSION": "1"
-	},
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.rendererType": "dom",
-	"terminal.integrated.shellIntegration.history": 1000,
-	"tlaplus.tlc.statisticsSharing": "share",
-	"turboConsoleLog.logMessagePrefix": "",
-	"turboConsoleLog.quote": "'",
-	"typescript.preferences.importModuleSpecifier": "relative",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"vetur.format.defaultFormatter.html": "none",
-	"vsicons.dontShowNewVersionMessage": true,
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"workbench.colorCustomizations": {
-	  "terminal.background": "#000000"
-	},
-	"workbench.iconTheme": "vscode-icons",
-	"workbench.startupEditor": "none",
-	"yaml.schemas": {
-	  "file:///Users/rakhi/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml",
-	  "file:///Users/rakhi/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
-	  "file:///Users/sanyamjain/.vscode/extensions/atlassian.atlascode-2.10.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
-	  "file:///Users/sanyamj/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
-	},
-	"terminal.external.osxExec": "iterm.app",
-	"terminal.integrated.tabs.location": "left",
-	"workbench.editor.revealIfOpen": true,
-	"javascript.validate.enable": false,
-	"circleci.hostUrl": "",
-	"circleci.notifications.areActive": "no",
-	"audioCues.volume": 100,
-	"githubPullRequests.createOnPublishBranch": "never",
-	"editor.linkedEditing": true,
-	"salesforcedx-vscode-core.telemetry.enabled": false,
-	"git.openRepositoryInParentFolders": "never",
-	"sonarlint.rules": {
-	  "typescript:S1854": {
-		"level": "off"
-	  }
-	},
-	"[erb]": {
-	  "editor.defaultFormatter": "elia.erb-formatter"
-	},
-	"[ruby]": {
-	  "editor.defaultFormatter": "Shopify.ruby-lsp",
-	  "editor.formatOnSave": true,
-	  "editor.formatOnType": true,
-	  "editor.tabSize": 2,
-	  "editor.insertSpaces": true,
-	  "files.trimTrailingWhitespace": true,
-	  "files.insertFinalNewline": true,
-	  "files.trimFinalNewlines": true,
-	  "editor.rulers": [120],
-	  "editor.semanticHighlighting.enabled": true
-	},
-	"hediet.vscode-drawio.theme": "min",
-	"chronicler.ffmpeg-binary": "/opt/homebrew/bin/ffmpeg",
-	"editor.formatOnSave": false,
-	"workbench.editorAssociations": {
-	  "*.sqlite3": "sqlite-viewer.view"
-	},
-	"extensions.experimental.affinity": {
-	  "asvetliakov.vscode-neovim": 1
-	},
-	"java.imports.gradle.wrapper.checksums": [
-	  {
-		"sha256": "661021583945d972a41b416a0bf6c1627be58a52a2c5848ef234b172c8a271f8",
-		"allowed": true
-	  }
-	],
-	"diffEditor.hideUnchangedRegions.enabled": true,
-	"diffEditor.ignoreTrimWhitespace": false
-  }
-  
+  "AddOnly.templates": [
+    {
+      "decline": ["skip"],
+      "insertAfterPriority": ["concurrent", "it"],
+      "name": "it"
+    }
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "elia.erb-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.jira.enabled": false,
+  "chronicler.ffmpeg-binary": "/opt/homebrew/bin/ffmpeg",
+  "circleci.hostUrl": "",
+  "circleci.notifications.areActive": "no",
+  "dart.flutterSdkPath": "/Users/sanyamjain/dev/libs/flutter",
+  "debug.console.fontSize": 14,
+  "docs-build.userType": "Public Contributor",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": false,
+  "editor.largeFileOptimizations": false,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "eslint.migration.2_x": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.cts": "${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.mts": "${capture}.typegen.ts",
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "package.json": "package-lock.json, yarn.lock",
+    "tsconfig.json": "tsconfig.*.json"
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "files.associations": {
+    "*.env.*": "dotenv",
+    "*.mdx": "markdown"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "assets/semantic.min.css": true,
+    "functions/dist/": true
+  },
+  "git.autofetch": true,
+  "git.confirmEmptyCommits": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": false,
+    "plaintext": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.fileListLayout": "tree",
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.toggleLineBlame": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "min",
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "allowed": true,
+      "sha256": "661021583945d972a41b416a0bf6c1627be58a52a2c5848ef234b172c8a271f8"
+    }
+  ],
+  "java.semanticHighlighting.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "jest.debugMode": true,
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.filePath": {},
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.showLocked": true,
+  "leetcode.workspaceFolder": "/Users/sanyamjain/Documents/Personal/code/leetcode/javascript",
+  "liveshare.presence": false,
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "npm.keybindingsChangedWarningShown": true,
+  "pgsql.connections": [
+    {
+      "dbname": "postgres",
+      "emptyPasswordInput": true,
+      "host": "localhost",
+      "password": "",
+      "port": "5432",
+      "profileName": "local",
+      "user": "sanyam"
+    }
+  ],
+  "ponicode.token": "e2d6f89a-5e2b-4a27-874a-85d9c3440460",
+  "ponicode.watchMode": true,
+  "python.languageServer": "Default",
+  "redhat.telemetry.enabled": true,
+  "salesforcedx-vscode-core.telemetry.enabled": false,
+  "search.exclude": {
+    "**/.git": true,
+    "package-lock.json": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "sonarlint.rules": {
+    "typescript:S1854": {
+      "level": "off"
+    }
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "sync.gist": "abd80bbc96478fb57a5de036cdd9a494",
+  "tabnine.experimentalAutoImports": true,
+  "terminal.external.osxExec": "iterm.app",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "CW_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shellIntegration.history": 1000,
+  "terminal.integrated.tabs.location": "left",
+  "tlaplus.tlc.statisticsSharing": "share",
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.quote": "'",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vetur.format.defaultFormatter.html": "none",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000000"
+  },
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editorAssociations": {
+    "*.sqlite3": "sqlite-viewer.view"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "yaml.schemas": {
+    "file:///Users/rakhi/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml",
+    "file:///Users/rakhi/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+    "file:///Users/sanyamjain/.vscode/extensions/atlassian.atlascode-2.10.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "file:///Users/sanyamj/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "terminal.integrated.allowChords": false,
+  "accessibility.signals.sounds.volume": 100,
+  "rest-client.previewOption": "exchange",
+  "workbench.editor.enablePreview": false
+}
