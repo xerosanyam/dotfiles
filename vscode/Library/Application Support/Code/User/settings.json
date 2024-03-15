@@ -224,5 +224,8 @@
   "terminal.integrated.allowChords": false,
   "accessibility.signals.sounds.volume": 100,
   "rest-client.previewOption": "exchange",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "[sql]": {
+    "editor.defaultFormatter": "bradymholt.pgformatter"
+  }
 }
