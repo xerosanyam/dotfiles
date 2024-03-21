@@ -1,0 +1,7 @@
+tldr
+zoxide
+nvm
+commitizen
+rectangle
+visual-studio-code
+alt-tab
